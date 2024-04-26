@@ -29,7 +29,7 @@ Scissors
 //Award Points
   //a. If players selection beats computers selection, increase players point tally +1
   //b. If computers selection beats players selection, increase computers point tally +1
-  //c. If computers selection is the same as players selection, do not increase either point tally
+c. If computers selection is the same as players selection, do not increase either point tally
 
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
 function myFunction(param1, param2) {
