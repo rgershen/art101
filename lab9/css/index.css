@@ -1,0 +1,44 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+body {
+    background-color: #a7c7d9;
+  }
+  
+  /* we can have rules apply to multiple elements at the same time with commas */
+  h1,h2,h3 {
+    font-family: sans-serif;
+  }
+  
+  /* and we can have rules that overlap other rules, both take effect */
+  h1 {
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-size: 200%;
+  }
+  
+  /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
+  #content {
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px #e44931;
+    background-color: #f48a84;
+  }
+  
+  /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+  .minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #7bd6f0;
+    background-color: #33b1ec;
+  }
+
+/* special task for LAB 9 */
+
+  .special {
+    background-color: rgb(255, 255, 255);
+    border: dotted 5px rgb(31, 24, 24);
+    color: rgb(239, 26, 58);
+    font-weight: lighter
+  }
+  
