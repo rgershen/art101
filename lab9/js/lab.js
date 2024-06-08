@@ -15,23 +15,6 @@ $(".highlight-button").click(function(){
    
 });
 
-//event for problems
 $(".highlight-button").click(function(){
-
-    $("#problems").toggleClass("special");
-
-});
-
-//event for results
-$(".highlight-button").click(function(){
-
-    $("#results").toggleClass("special");
-
-});
-
-//event for reflection
-$(".highlight-button").click(function(){
-
-    $("#reflection").toggleClass("special");
-
+    $(this).next().toggleClass("special");
 });
