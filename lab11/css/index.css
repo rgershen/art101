@@ -1,0 +1,36 @@
+/* Rory CSSS */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+body {
+    background-color: #e5dcdc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    margin-bottom: 5px;
+  }
+  
+  input,
+  button {
+    margin-top: 10px;
+  }
+  
+  .minor-section {
+      padding: 10px;
+      margin-bottom: 10px;
+      border: solid 1px hwb(69 60% 5%);
+      background-color: #ee4f84;
+    }
+  
+    .input-output {
+      padding: 10px;
+      margin-bottom: 10px;
+      border: solid 1px hsl(0, 12%, 68%);
+      background-color: hsl(0, 73%, 61%);
+    }
+  
+  p {font-family:'Franklin Gothic Medium', 'Arial Bold', Arial, sans-serif}
+  
+  
